@@ -12,20 +12,39 @@ namespace tpmodul5_1302204126
         private String title;
         private int playCount;
 
-        public SayaTubeVideo(string title)
+        public SayaTubeVideo(String title)
         {
+
+            //random number
             Random random = new Random();
-            this.id = random.Next(1, 19999);
+            this.id = random.Next(10000, 99999);
+            //cek null dengan max value
+            if (title == "")
+                throw new NullReferenceException("title tidak boleh null");
+            if (title.Length > 100)
+                throw new Exception("panjang text maksimal 100");
+
             this.title = title;
+
+            
             this.playCount = 0;
         }
-        public void IncreasePlayCount(int a) { playCount++; }
+        public void IncreasePlayCount(int a) 
+        {
+            this.playCount = a;
+        }
 
         public void PrintVideoDetails()
         {
-            Console.WriteLine(this.id);
-            Console.WriteLine(this.title);
-            Console.WriteLine(this.playCount);
+            for (int i = 0; i < playCount; i++)
+            {
+                
+                Console.WriteLine(this.id);
+                Console.WriteLine(this.title);
+                Console.WriteLine(i+1);
+            }
+             
+            
         }
 
      }
