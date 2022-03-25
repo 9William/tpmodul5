@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace tpmodul5_1302204126
 {
@@ -10,6 +7,8 @@ namespace tpmodul5_1302204126
     {
         static void Main(string[] args)
         {
+            SayaTubeVideo s = new SayaTubeVideo("Tutorial Design By Contract - Gerry William Mathew Kurniawna");
+            s.PrintVideoDetails();
         }
     }
 }

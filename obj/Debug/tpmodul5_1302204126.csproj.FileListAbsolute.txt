@@ -1,0 +1,8 @@
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\obj\Debug\tpmodul5_1302204126.csproj.AssemblyReference.cache
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\obj\Debug\tpmodul5_1302204126.csproj.SuggestedBindingRedirects.cache
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\obj\Debug\tpmodul5_1302204126.csproj.CoreCompileInputs.cache
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\bin\Debug\tpmodul5_1302204126.exe.config
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\bin\Debug\tpmodul5_1302204126.exe
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\bin\Debug\tpmodul5_1302204126.pdb
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\obj\Debug\tpmodul5_1302204126.exe
+C:\Users\kddk7\praktikum_kpl\tpmodul5_1302204126\obj\Debug\tpmodul5_1302204126.pdb
